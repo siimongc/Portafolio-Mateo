@@ -15,7 +15,7 @@
     z-index: 1;
     text-align: center;
     padding-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
 }
 
 .hero-subtitle {
@@ -63,7 +63,7 @@
 .scroll-hint {
     display: flex;
     justify-content: flex-start;
-    padding: 0 0 28px 0;
+    padding: 24px 0;
 }
 
 .scroll-btn {

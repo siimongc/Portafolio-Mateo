@@ -3,8 +3,7 @@ import ProjectCard from '../components/ProjectCard';
 import TitleImage from '../components/TitleImage';
 import { projects } from '../data/projects';
 import fotoMajo from '../Images/imagen_majo.jpeg';
-import { FaPinterest, FaBehance } from 'react-icons/fa';
-import { MdOutlineEmail } from 'react-icons/md';
+import { FaPinterest, FaBehance, FaInstagram } from 'react-icons/fa';
 import './Home.css';
 
 const Home = () => {
@@ -12,16 +11,17 @@ const Home = () => {
         <div className="home-container">
             <header className="hero-section">
                 <TitleImage />
-                <div className="scroll-hint">
-                    <button
-                        className="scroll-btn"
-                        onClick={() => document.getElementById('proyectos').scrollIntoView({ behavior: 'smooth' })}
-                    >
-                        <span className="scroll-btn__label">Ver proyectos</span>
-                        <span className="scroll-btn__arrow">↓</span>
-                    </button>
-                </div>
             </header>
+
+            <div className="scroll-hint">
+                <button
+                    className="scroll-btn"
+                    onClick={() => document.getElementById('proyectos').scrollIntoView({ behavior: 'smooth' })}
+                >
+                    <span className="scroll-btn__label">Ver proyectos</span>
+                    <span className="scroll-btn__arrow">↓</span>
+                </button>
+            </div>
 
             <section className="profile-section">
                 <div className="profile-col profile-col--identity">
@@ -29,16 +29,16 @@ const Home = () => {
                     <h2 className="profile-name">Maria José Molinah</h2>
                     <span className="profile-role">Diseñadora Gráfica</span>
                     <p className="profile-location">📍 Medellín, Colombia</p>
-                    <p className="profile-email">mariajosemolinah@amigo.edu.co</p>
+                    <p className="profile-email">themajitoeffect@gmail.com</p>
                     <div className="social-icons">
-                        <a href="" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Pinterest">
+                        <a href="https://co.pinterest.com/Majito_Molina/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Pinterest">
                             <FaPinterest size={26} color="#e60023" />
                         </a>
-                        <a href="" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Behance">
+                        <a href="https://www.behance.net/mariajomolina" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Behance">
                             <FaBehance size={26} color="#1769ff" />
                         </a>
-                        <a href="mailto:mariajosemolinah@amigo.edu.co" className="social-icon" aria-label="Email">
-                            <MdOutlineEmail size={28} color="#e2f788" />
+                        <a href="https://www.instagram.com/majitomolinah/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
+                            <FaInstagram size={26} color="#E1306C" />
                         </a>
                     </div>
                 </div>

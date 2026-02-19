@@ -58,15 +58,25 @@
 .project-gallery {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 24px;
+}
+
+.gallery-item {
+    background-color: #111620;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery-item img {
-    width: 100%;
+    width: 85%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
 .project-link-container {
@@ -120,6 +130,14 @@
     }
 
     .project-gallery {
-        gap: 20px;
+        gap: 16px;
+    }
+
+    .gallery-item {
+        padding: 12px;
+    }
+
+    .gallery-item img {
+        width: 95%;
     }
 }

@@ -27,6 +27,7 @@ import portadaP3Title from '../Images/proyecto_tres/portada_p3_sin fondo.png';
 import p3_1 from '../Images/proyecto_tres/p1.png';
 import p3_2 from '../Images/proyecto_tres/p2.png';
 import p3_3 from '../Images/proyecto_tres/p3.png';
+import p3_4 from '../Images/proyecto_tres/p4.png';
 
 // Proyecto 4
 import portadaP4Title from '../Images/proyecto_cuatro/portada_p4 sinfondo.png';
@@ -44,7 +45,7 @@ export const projects = [
     titleImage: portadaP1Title,
     images: [p1_1, p1_2, p1_3, p1_4, p1_5, p1_6, p1_7, p1_8],
     description: "Diseño de identidad completa para Botanico Medellin.",
-    link: "",
+    link: "https://drive.google.com/file/d/1KEE6jaLKNIvP1CE749l9f6lp8gY0MOwU/view?usp=sharing",
   },
   {
     id: 2,
@@ -54,7 +55,7 @@ export const projects = [
     titleImage: portadaP2Title,
     images: [p2_1, p2_2, p2_3, p2_4, p2_5, p2_6, p2_7, p2_8, p2_9],
     description: "Sesion fotografica para agencia de modelos.",
-    link: "",
+    link: "https://drive.google.com/file/d/1ugOW1l7Zth98tk0dk67givmw3PKCGkPE/view?usp=sharing",
   },
   {
     id: 3,
@@ -62,7 +63,7 @@ export const projects = [
     category: "Diseño Editorial",
     previewImage: portadaP3Title,
     titleImage: portadaP3Title,
-    images: [p3_1, p3_2, p3_3],
+    images: [p3_1, p3_2, p3_3, p3_4],
     description: "Maquetacion y diseño de revista de moda.",
   },
   {
