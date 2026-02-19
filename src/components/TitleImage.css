@@ -1,0 +1,11 @@
+.title-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-image {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
