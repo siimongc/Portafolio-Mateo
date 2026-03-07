@@ -62,8 +62,14 @@
 
 .scroll-hint {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     padding: 24px 0;
+}
+
+.cv-hint {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 40px 0;
 }
 
 .scroll-btn {
@@ -185,7 +191,7 @@
     font-size: 0.75rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #e2f788;
+    color: #00e5ff;
 }
 
 .profile-location {
@@ -199,8 +205,8 @@
     font-size: 0.7rem;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #e2f788;
-    border-bottom: 1px solid rgba(226, 247, 136, 0.2);
+    color: #00e5ff;
+    border-bottom: 1px solid rgba(0, 229, 255, 0.2);
     padding-bottom: 6px;
 }
 
@@ -238,7 +244,7 @@
     content: '—';
     position: absolute;
     left: 0;
-    color: #e2f788;
+    color: #00e5ff;
     font-size: 0.7rem;
     top: 2px;
 }

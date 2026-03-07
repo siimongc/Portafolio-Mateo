@@ -1,5 +1,5 @@
 import React from 'react';
-import portadaImg from '../Images/portada_sin_fondo.png';
+import portadaImg from '../Images/portada_mateo.png';
 import './TitleImage.css';
 
 const TitleImage = () => {

@@ -6,12 +6,19 @@
 }
 
 .back-button {
-    display: inline-block;
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    z-index: 100;
     text-decoration: none;
     color: #e2f788;
     font-weight: 600;
-    margin-bottom: 40px;
     font-size: 1.1rem;
+    background-color: rgba(10, 14, 20, 0.85);
+    backdrop-filter: blur(8px);
+    padding: 8px 16px;
+    border-radius: 40px;
+    border: 1px solid rgba(226, 247, 136, 0.2);
     transition: opacity 0.3s;
 }
 
