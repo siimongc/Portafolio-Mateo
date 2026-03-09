@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { projects } from '../data/projects';
+import ProjectSummary from '../components/ProjectSummary';
+import SocialProfileButton from '../components/SocialProfileButton';
 import './ProjectDetail.css';
 
 const ProjectDetail = () => {
@@ -25,6 +27,7 @@ const ProjectDetail = () => {
                         ? <img src={project.titleImage} alt={project.title} className="project-title-image" />
                         : <h1 className="project-title">{project.title}</h1>
                     }
+                    <ProjectSummary text={project.summary} />
                     {project.links && (
                         <nav className="project-links-panel">
                             {project.links.map((item, i) => (
@@ -60,6 +63,15 @@ const ProjectDetail = () => {
                     </div>
                 ))}
             </div>
+
+            {project.socialProfile && (
+                <div className="project-link-container">
+                    <SocialProfileButton
+                        platform={project.socialProfile.platform}
+                        url={project.socialProfile.url}
+                    />
+                </div>
+            )}
 
             {project.link && (
                 <div className="project-link-container">

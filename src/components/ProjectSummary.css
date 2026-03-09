@@ -1,0 +1,26 @@
+.project-summary {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-summary__text {
+    margin: 0 0 12px 0;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #aab0bc;
+    border-left: 2px solid #00e5ff;
+    padding-left: 16px;
+}
+
+.project-summary__text:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .project-summary {
+        max-width: 100%;
+    }
+}
