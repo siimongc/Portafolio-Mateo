@@ -3,7 +3,7 @@ import ProjectCard from '../components/ProjectCard';
 import TitleImage from '../components/TitleImage';
 import { projects } from '../data/projects';
 import fotoMajo from '../Images/Foto_perfil_mateo.png';
-import { FaPinterest, FaBehance, FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
 import './Home.css';
 
 const Home = () => {
@@ -31,11 +31,11 @@ const Home = () => {
                     <p className="profile-location">📍 Medellín, Colombia</p>
                     <p className="profile-email">matedigger30@gmail.com</p>
                     <div className="social-icons">
-                        <a href="https://co.pinterest.com/Majito_Molina/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Pinterest">
-                            <FaPinterest size={26} color="#e60023" />
+                        <a href="https://www.tiktok.com/@geezer_booty?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="TikTok">
+                            <FaTiktok size={26} color="#000000" />
                         </a>
-                        <a href="https://www.behance.net/mariajomolina" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Behance">
-                            <FaBehance size={26} color="#1769ff" />
+                        <a href="https://www.youtube.com/@mateo_gaviria1665" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="YouTube">
+                            <FaYoutube size={26} color="#FF0000" />
                         </a>
                         <a href="https://www.instagram.com/geezer_booty/" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
                             <FaInstagram size={26} color="#E1306C" />
